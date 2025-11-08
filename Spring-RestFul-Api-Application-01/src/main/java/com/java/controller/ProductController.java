@@ -19,6 +19,7 @@ public class ProductController {
 	
 	@Autowired
 	private ProductService service;
+	
 
 	public ProductService getService() {
 		return service;
